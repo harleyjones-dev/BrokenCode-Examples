@@ -35,4 +35,4 @@ For more information, please refer to <https://unlicense.org>
 ```
 
 ## Copyright holders
-Email stu-396964[@]gapps.suffolk.ac.uk if you would like to me take down any `original.py` code from this repository.
+Email stu-396964[@]gapps.suffolk.ac.uk if you would like to me to take down any `original.py` code from this repository.
