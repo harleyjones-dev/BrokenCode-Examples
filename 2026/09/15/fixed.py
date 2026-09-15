@@ -155,6 +155,13 @@ def get_discount_choice():
 enter_order = True
 
 while enter_order:
+    print("#################### Menu #####################")
+    print("")
+    for item in menu:
+        print(item + " £" + str(menu[item]))
+    print("")
+    print("###############################################")
+    print("")
     print("###############################################")
     print("#### Gurreb's BBQ order processing system  ####")
     print("###############################################\n")
@@ -203,7 +210,7 @@ while enter_order:
         subtotal = float(tables[table_num -1][-1])
         print("Subtotal before discount = £{}".format(subtotal))
         final_total = subtotal * (1 - discount / 100)
-        print("Final total after discount = £{}".format(math.round(final_total, 2)))
+        print("Final total after discount = £{}".format(math.ceil(final_total * 100) / 100))
         flag = False
     
     elif main_choice == "3":
@@ -211,4 +218,3 @@ while enter_order:
     
     else:
         flag = True
-
