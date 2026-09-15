@@ -194,7 +194,7 @@ while enter_order:
                 tables[table_num -1].append(item_choice)
                 tables[table_num -1].append(quantity)
                 tables[table_num -1].append(cost)
-                subtotal = subtotal + (cost * quantity)
+                subtotal = subtotal + cost
 
         flag = False
  
